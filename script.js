@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function(){
         scrElement = document.createElement('script');
 
     window.mishaProcessResult = function (data) {
-        this.console.log(data);
         for (x in data.data) {
             container.innerHTML += '<a href="'+data.data[x].link+'"><div><img class="igfeed" src="' + data.data[x].images.low_resolution.url + '"></div></a>';
         }
