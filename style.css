@@ -84,10 +84,15 @@ body {
 	display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    height: 500px; 
+	height: 500px; 
+	padding: 10px;
 }
 #instafeed{
 	text-align:center;
+	display: flex;
+}
+.iconContainer img{
+	height: 50px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -144,7 +149,6 @@ body {
 	}
 	#logoimg {
 		width: 300px;
-		margin-left: -4px;
 	}
 	
 	.content {
@@ -168,5 +172,19 @@ body {
 	}
 	.formdiv{
 		height: 600px
+	}
+	.igfeed{
+		display: inline-block;
+		height: 100%; 
+		width: 100%;
+		padding: 0px;
+	} 
+	#instafeed{
+		display: block;
+		padding: -10px;
+		width: 100%;
+	}
+	.iconContainer {
+		display: flex;
 	}
 }
