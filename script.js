@@ -14,6 +14,8 @@ window.addEventListener('scroll', function (evt) {
     }
 });
 
+
+
 function closeMobileNav() {
     var ul = document.getElementsByClassName('topnav')[0];
     ul.className = 'topnav';
@@ -28,3 +30,20 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+document.addEventListener("DOMContentLoaded", function(){
+    var token = '12178400667.dd7ea04.6cee02a6ac544889ba7ca6541f364da0',
+        num_photos = 10, // maximum 20
+        container = document.getElementById('instafeed'), // it is our <ul id="rudr_instafeed">
+        scrElement = document.createElement('script');
+
+    window.mishaProcessResult = function (data) {
+        this.console.log(data);
+        for (x in data.data) {
+            container.innerHTML += '<a href="'+data.data[x].link+'"><div><img class="igfeed" src="' + data.data[x].images.low_resolution.url + '"></div></a>';
+        }
+    }
+
+    scrElement.setAttribute('src', 'https://api.instagram.com/v1/users/self/media/recent?access_token=' + token + '&count=' + num_photos + '&callback=mishaProcessResult');
+    document.body.appendChild(scrElement);
+});

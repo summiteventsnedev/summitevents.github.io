@@ -80,6 +80,15 @@ body {
 .formdiv{
 	height: 1000px
 }
+.igfeed{
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px; 
+}
+#instafeed{
+	text-align:center;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
 	img {
@@ -135,6 +144,7 @@ body {
 	}
 	#logoimg {
 		width: 300px;
+		margin-left: -4px;
 	}
 	
 	.content {
