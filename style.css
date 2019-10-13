@@ -189,4 +189,7 @@ body {
 		text-align: center;
 		justify-content: center;
 	}
+	.iconContainer a{
+		padding: 2px;
+	}
 }
