@@ -92,11 +92,8 @@ body {
 }
 
 .igfeed{	
-	display: inline-block;	
-    margin-left: auto;	
-    margin-right: auto;	
-	height: 500px; 	
-	padding: 10px;	
+	padding: 10px;
+	display: inline-grid;
 }
 
 #instafeed {
@@ -197,8 +194,10 @@ h2 {
 		height: 600px
 	}
 	.igfeed{	
-		padding: 10px;
-		display: inline-grid;
+		display: inline-block;	
+		height: 100%; 	
+		width: 100%;	
+		padding: 0px;	
 	} 
 
 	#instafeed {
