@@ -103,6 +103,10 @@ iframe{
 	height: 100%;
 	border:none;
 }
+h2 {
+	font-size: 50px;
+	margin: auto;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
 	img {
@@ -190,7 +194,6 @@ iframe{
 	} 
 	#instafeed{
 		display: block;
-		padding: -10px;
 		width: 100%;
 	}
 	.iconContainer {
@@ -204,5 +207,9 @@ iframe{
 	#portrait {
 		height: 75%;
 		width: 75%;
+	}
+	h2 {
+		font-size: 40px;
+		margin: auto;
 	}
 }
