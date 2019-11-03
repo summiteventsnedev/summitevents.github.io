@@ -221,6 +221,9 @@ h2 {
 		display: none;
 		background: black;
 	}
+	i {
+		font-size: 20px;
+	}
 	.topnav a.icon {
 		float: right;
 		display: block;
@@ -310,16 +313,11 @@ h2 {
 		font-size: 40px;
 		margin: auto;
 	}
-	.igfeed {
-		display: inline-block;
-		height: 100%;
-		width: 100%;
-		padding: 0px;
-	}
-	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-		#portrait {
-			height: 25%;
-			width: 25%;
-		}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+	#portrait {
+		height: 25%;
+		width: 25%;
 	}
 }
