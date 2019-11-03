@@ -117,12 +117,12 @@ h2 {
 }
 
 @media only screen and (max-width: 1000px) and (orientation: portrait) {
-	img {
-		width: 100%;
-	}
 	.topnav a:not(:first-child) {
 		display: none;
 		background: black;
+	}
+	i {
+		font-size: 20px;
 	}
 	.topnav a.icon {
 		float: right;
@@ -193,12 +193,6 @@ h2 {
 	.formdiv {
 		height: 600px
 	}
-	.igfeed{	
-		display: inline-block;	
-		height: 100%; 	
-		width: 100%;	
-		padding: 0px;	
-	} 
 
 	#instafeed {
 		display: block;
@@ -223,9 +217,6 @@ h2 {
 }
 
 @media only screen and (max-width: 1000px) and (orientation: landscape) {
-	img {
-		width: 100%;
-	}
 	.topnav a:not(:first-child) {
 		display: none;
 		background: black;
