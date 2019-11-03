@@ -91,6 +91,14 @@ body {
 	height: 1000px
 }
 
+.igfeed{	
+	display: inline-block;	
+    margin-left: auto;	
+    margin-right: auto;	
+	height: 500px; 	
+	padding: 10px;	
+}
+
 #instafeed {
 	text-align: center;
 	display: flex;
@@ -109,14 +117,6 @@ iframe {
 h2 {
 	font-size: 50px;
 	margin: auto;
-}
-
-.igfeed {
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 500px;
-	padding: 10px;
 }
 
 @media only screen and (max-width: 1000px) and (orientation: portrait) {
@@ -196,6 +196,11 @@ h2 {
 	.formdiv {
 		height: 600px
 	}
+	.igfeed{	
+		padding: 10px;
+		display: inline-grid;
+	} 
+
 	#instafeed {
 		display: block;
 		width: 100%;
@@ -215,12 +220,6 @@ h2 {
 	h2 {
 		font-size: 40px;
 		margin: auto;
-	}
-	.igfeed {
-		display: inline-block;
-		height: 100%;
-		width: 100%;
-		padding: 0px;
 	}
 }
 
