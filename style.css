@@ -83,13 +83,6 @@ body {
 .formdiv{
 	height: 1000px
 }
-.igfeed{
-	display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-	height: 500px; 
-	padding: 10px;
-}
 #instafeed{
 	text-align:center;
 	display: flex;
@@ -186,12 +179,6 @@ h2 {
 	.formdiv{
 		height: 600px
 	}
-	.igfeed{
-		display: inline-block;
-		height: 100%; 
-		width: 100%;
-		padding: 0px;
-	} 
 	#instafeed{
 		display: block;
 		width: 100%;
